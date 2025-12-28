@@ -422,8 +422,7 @@ footer {
 
     .pub-thumbnail {
         width: 100%; /* Full width image on mobile */
-        height: 300px; /* Fixed height */
-        max-width: 300px; /* Don't get too huge */
+        height: auto;
     }
 
     /* Disable hover movements on touch devices */
