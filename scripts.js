@@ -23,7 +23,7 @@ const CONFIG = {
 
 const ani_path = "./static/ani/";
 const videosGeneral = [
-    { title: "A Saturn-mass free-floating-planet event", src: "ffp_en.mp4" },
+    // { title: "A Saturn-mass free-floating-planet event", src: "ffp_en.mp4" },
     { title: "Single-lens event", src: "pspl.mp4" },
     { title: "Binary-lens event ASASSN-22av", src: "22av.mp4" },
 ];
