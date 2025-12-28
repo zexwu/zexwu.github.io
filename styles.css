@@ -432,13 +432,22 @@ footer {
         transform: none;
     }
 
-    .video-wrapper {
-        /* Reduce height so width scales down proportionally */
-        height: 220px;
+    .video-grid {
+        gap: 1rem;
+        padding-left: 0.5rem; /* Optional: aligns first video nicely */
+        padding-right: 0.5rem;
     }
 
-    .video-grid {
-        /* Slightly reduce gap on mobile for better fit */
-        gap: 1rem;
+    .video-wrapper {
+        /* CRITICAL FIX: */
+
+        /* 1. Set width to 75% of screen. 
+           This guarantees the next video is visible (peek effect). */
+        flex: 0 0 85vw;
+        width: 85vw;
+
+        /* 2. Set height proportional to that width (approx 4:3 ratio).
+           This prevents the 'too wide' black bar look. */
+        /*height: 56vw;*/
     }
 }
