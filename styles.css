@@ -204,7 +204,7 @@ section {
 
 .pub-thumbnail {
     width: 140px;
-    height: 140px; /* Rectangular aspect ratio usually looks better for papers */
+    height: 140px;
     flex-shrink: 0;
     border: 1px solid var(--border-color);
     overflow: hidden;
@@ -421,9 +421,9 @@ footer {
     }
 
     .pub-thumbnail {
-        width: auto; /* Full width image on mobile */
+        width: 100%; /* Full width image on mobile */
         height: 200px; /* Fixed height */
-        max-width: 300px; /* Don't get too huge */
+        max-width: 200px; /* Don't get too huge */
     }
 
     /* Disable hover movements on touch devices */
