@@ -443,8 +443,8 @@ footer {
 
         /* 1. Set width to 75% of screen. 
            This guarantees the next video is visible (peek effect). */
-        flex: 0 0 85vw;
-        width: 85vw;
+        flex: 0 0 75vw;
+        width: 75vw;
 
         /* 2. Set height proportional to that width (approx 4:3 ratio).
            This prevents the 'too wide' black bar look. */
