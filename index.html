@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Homepage of Zexuan Wu, Ph.D. Student in Astronomy"
+        />
+        <meta
+            name="keywords"
+            content="Astronomy, Ph.D. Student, Microlensing, Optical Interferometry, Black Hole, Peking University"
+        />
+        <meta name="author" content="Zexuan Wu" />
+
+        <meta
+            property="og:title"
+            content="Zexuan Wu - Astronomy Ph.D. Student"
+        />
+        <meta
+            property="og:description"
+            content="Research in Microlensing and Optical Interferometry at Peking University."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://yourwebsite.com" />
+        <meta name="twitter:card" content="summary" />
+
+        <title>Zexuan Wu | Astronomy</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        />
+
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body id="top">
+        <header>
+            <div class="header-content">
+                <h1>
+                    Zexuan Wu
+                    <span class="pronunciation"
+                        >pronounced "zuh-shwen woo"</span
+                    >
+                </h1>
+                <div class="social-links-header">
+                    <a
+                        href="mailto:wuzexuan@pku.edu.cn"
+                        aria-label="Email Zexuan Wu"
+                    >
+                        <i class="fas fa-envelope"></i> wuzexuan[at]pku.edu.cn
+                    </a>
+                    <a
+                        href="https://orcid.org/0009-0007-5754-6206"
+                        aria-label="ORCID Profile"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i class="fab fa-orcid"></i> 0009-0007-5754-6206
+                    </a>
+                </div>
+            </div>
+
+            <div class="header-image">
+                <img src="static/profile.jpg" alt="Zexuan Wu Profile Photo" />
+            </div>
+        </header>
+
+        <main>
+            <section id="about">
+                <p>
+                    I am a Ph.D. candidate in Astronomy at Peking University,
+                    working on the search for isolated stellar-mass black holes
+                    using interferometric microlensing techniques. My research
+                    interests span
+                    <strong>gravitational microlensing</strong> and
+                    <strong>optical interferometry</strong>.
+                </p>
+            </section>
+
+            <section id="publications">
+                <div class="publications-header">
+                    <h2 id="toggle-header">Publications</h2>
+                </div>
+                <div id="publications-container"></div>
+            </section>
+
+            <section id="miscellaneous">
+                <h2>Microlensing Animations</h2>
+
+                <h3>General</h3>
+                <div id="video-row-general" class="video-grid"></div>
+
+                <h3>
+                    Free-floating planet
+                    <span
+                        style="
+                            font-size: 0.8em;
+                            font-weight: normal;
+                            color: var(--text-secondary);
+                            vertical-align: middle;
+                            margin-left: 10px;
+                        "
+                    >
+                        (Legends omitted for flexibility)
+                    </span>
+                </h3>
+                <div id="video-row-ffp" class="video-grid"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>
+                Last updated: Dec, 2025. Adapted from
+                <a
+                    href="https://github.com/yuhui-zh15/Minimal-Academic-Website/"
+                    >Minimal-Academic-Website</a
+                >
+            </p>
+        </footer>
+
+        <div id="imageModal" class="modal" role="dialog" aria-hidden="true">
+            <span
+                class="modal-close"
+                onclick="closeModal()"
+                role="button"
+                aria-label="Close modal"
+                >&times;</span
+            >
+            <img class="modal-content" id="modalImage" alt="Enlarged view" />
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/citation-js"></script>
+        <script src="scripts.js"></script>
+    </body>
+</html>
