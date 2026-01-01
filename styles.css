@@ -244,7 +244,7 @@ section {
 }
 
 .highlight-name {
-    font-weight: 600;
+    /*font-weight: 600;*/
     color: var(--text-color);
     text-decoration: underline;
     text-decoration-color: var(--accent-color);
