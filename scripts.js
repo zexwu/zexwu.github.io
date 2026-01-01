@@ -17,6 +17,7 @@ const CONFIG = {
         "\\araa": "<i>ARA&A</i>",
         "\\nat": "<i>Nature</i>",
         "\\sci": "<i>Science</i>",
+        "Science": "<i>Science</i>",
         "arXiv e-prints": "<i>arXiv e-prints</i>",
     },
 };
