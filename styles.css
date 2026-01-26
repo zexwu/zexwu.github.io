@@ -76,6 +76,7 @@ p {
 
 strong {
     font-weight: 700;
+    text-decoration: underline;
     color: var(
         --text-color
     ); /* Kept dark for contrast, use accent if preferred */
